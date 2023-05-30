@@ -1,0 +1,19 @@
+
+table {
+    margin: 0 auto;
+}
+table {
+    margin-top: 500px;
+}
+table, tr, td {
+    border-collapse: collapse;
+    border: 1px solid lightgray;
+}
+img {
+    width: 100%;
+}
+.playTableTd {
+    width: 500px;
+    height: 650px;
+}
+

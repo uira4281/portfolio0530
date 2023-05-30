@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* table, tr, td {
+            border: 1px solid black;
+        } */
+    </style>
+</head>
+<body>
+    <table id="mainTable">
+        <tr>
+            <td id="title">오목게임</td>
+        </tr>
+        <tr>
+            <td><hr width="750px"></td>
+        </tr>
+        <tr>
+            <td id="content">돌의 색을 선택하세요.</td>
+        </tr>
+        <tr>
+            <td id="footer">
+                <button class="selectBtn1" onclick="selectPlayer('black')">black</button>
+                <button class="selectBtn2" onclick="selectPlayer('white')">white</button>
+            </td>
+        </tr>
+    </table>
+
+    <table id="gameTable">
+        <tr>
+            <td id="gameTableTd"></td>
+        </tr>
+        <tr>
+            <td>
+                <button id="replayBtn" onclick="replay()">Replay</button>
+            </td>
+        </tr>
+    </table>
+
+    <script src="controller.js"></script>
+    <!-- <div id="back">
+        <button class="backB" onclick="back()">뒤로가기</button>
+    </div> -->
+</body>
+</html>

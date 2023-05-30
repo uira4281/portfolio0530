@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="setView()">
+    <div id="container">
+        <table id="menuTable"></table>
+
+        <!--  -->
+        <table id="centerTable">
+            <tr>
+                <td id="money">
+                    <table id="moneytable">
+                        <tr>
+                            <td class="moneyTd4" colspan="2"></td>
+                            <td class="moneyT5" rowspan="7"></td>
+                            <td id="priceTd1">
+                                사용가능 금액: 0원
+                            </td>
+                            <td id="priceTd2"><button id="priceBtn" rowspan="6">╊</button></td>
+                        </tr>
+                        <tr>
+                            <td class="moneyTd3" colspan="2" rowspan="6">
+                                <img id="composeLogo" src="Img/composeLogo.png">
+                                <span><br><br>광고문의 <br> 010-1234-5678</span>
+                            </td>
+                            <td class="moneyTd2">
+                                <button class="moneyBtn">
+                                    <img class="money1" alt="10000" src="money/만원.png">
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="moneyTd2">
+                                <button class="moneyBtn">
+                                    <img class="money1" alt="5000" src="money/오천원.png">
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="moneyTd2">
+                                <button class="moneyBtn">
+                                    <img class="money1" alt="1000" src="money/천원.png">
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="moneyTd2">
+                                <button class="moneyBtn">
+                                    <img class="money2" alt="500" src="money/오백원.png">
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="moneyTd2">
+                                <button class="moneyBtn">
+                                    <img class="money2" alt="100" src="money/백원.png">
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="moneyTd4"></td>
+                            <td class="moneyTd6"></td>
+                        </tr>
+                       
+                    </table>
+             </td>
+                <td></td>
+                <td id="receipt">
+                    
+                </td>
+            </tr>
+        </table>
+
+        <table id="imgTable">
+            
+        </table>
+    </div>
+
+    <div id="footer">
+        <div id="footerReceipt">
+            <table id="receiptTable">
+                <tr>
+                    <td class="receiptTd5" rowspan="7"></td>
+                    <td class="receiptTd5" rowspan="7"></td>
+                    <td class="receiptTd5" rowspan="7"></td>
+                    <td class="receiptTd5" rowspan="7"></td>
+                    <td class="receiptTd5" rowspan="7"></td>
+                    <td class="receiptTd1" colspan="2">영수증 출력</td>
+                </tr>
+                <tr>
+                    <td class="receiptTd3">10000</td>
+                    <td class="receiptTd4">0</td>
+                </tr>
+                <tr>
+                    <td class="receiptTd3">5000</td>
+                    <td class="receiptTd4">0</td>
+                </tr>
+                <tr>
+                    <td class="receiptTd3">1000</td>
+                    <td class="receiptTd4">0</td>
+                </tr>
+                <tr>
+                    <td class="receiptTd3">500</td>
+                    <td class="receiptTd4">0</td>
+                </tr>
+                <tr>
+                    <td class="receiptTd3">100</td>
+                    <td class="receiptTd4">0</td>
+                </tr>
+            </table>
+    </div>
+    </div>
+    <script src="controller.js"></script>
+
+    <!-- <div id="back">
+        <button class="backB" onclick="location.href='">뒤로가기</button>
+    </div> -->
+</body>
+</html>
